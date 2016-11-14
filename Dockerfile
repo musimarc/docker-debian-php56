@@ -8,6 +8,8 @@ RUN apt-get update && \
     vim \
     nano \
     wget \
+    sudo \
+    cron \
     apache2 \
     libapache2-mod-php5 \
     openssh-server \
