@@ -10,6 +10,7 @@ RUN apt-get update && \
     wget \
     sudo \
     cron \
+    apt-utils \
     apache2 \
     libapache2-mod-php5 \
     openssh-server \
