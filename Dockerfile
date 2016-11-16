@@ -61,6 +61,6 @@ RUN /usr/sbin/a2enmod headers
 RUN /usr/sbin/a2enmod proxy
 RUN /usr/sbin/a2enmod proxy_http
 
-EXPOSE 22 80
+EXPOSE 80
 CMD ["/usr/bin/supervisord"]
 
