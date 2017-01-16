@@ -38,6 +38,7 @@ RUN apt-get update && \
     openjdk-7-jre \
     memcached \
     openssh-server \
+	xauth \
     supervisor
 
 RUN apt-get update && \
