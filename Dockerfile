@@ -3,6 +3,9 @@ FROM debian:latest
 #copie du sources.list avec contrib non-free
 COPY conf/sources.list /etc/apt/sources.list
 
+#copie du bashrc
+COPY conf/bashrc /root/.bashrc
+
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     vim \
